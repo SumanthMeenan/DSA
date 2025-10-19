@@ -1,117 +1,63 @@
-# DSA
+<details>
+<summary><strong>Arrays in FAANG Interviews</strong> (Click to expand)</summary>
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Arrays in FAANG Interviews</title>
-  <style>
-    body {
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      line-height: 1.6;
-      margin: 40px;
-      background-color: #fafafa;
-      color: #333;
-    }
-    h1, h2 {
-      color: #2b2b6e;
-    }
-    h1 {
-      border-bottom: 3px solid #2b2b6e;
-      padding-bottom: 8px;
-    }
-    ul {
-      margin-left: 20px;
-    }
-    li {
-      margin: 5px 0;
-    }
-    code {
-      background-color: #f0f0f0;
-      padding: 2px 5px;
-      border-radius: 3px;
-      font-size: 0.95em;
-    }
-  </style>
-</head>
-<body>
+Arrays are one of the most foundational data structures in DSA and often dominate the early rounds of FAANG interviews. Below is a comprehensive list of array topics, from basics to advanced, that you should master.
 
-  <h1>Arrays in FAANG Interviews</h1>
-  <p>Arrays are one of the most foundational data structures in DSA and often dominate the early rounds of FAANG interviews. Below is a comprehensive list of array topics, from basics to advanced, that you should master.</p>
+### 1. Fundamentals & Operations
+- Declaration, initialization, traversal
+- Access by index (`O(1)` time complexity)
+- Modification & update of elements
+- Array memory model & fixed size property
 
-  <h2>1. Fundamentals & Operations</h2>
-  <ul>
-    <li>Declaration, initialization, traversal</li>
-    <li>Access by index (<code>O(1)</code> time complexity)</li>
-    <li>Modification & update of elements</li>
-    <li>Array memory model & fixed size property</li>
-  </ul>
+### 2. Core Patterns & Algorithms
+- **Searching:** Linear Search, Binary Search (for sorted arrays)
+- **Reversal & Rotation:** Reverse an array (in-place / extra space), Rotate array by `k` positions
+- **Prefix Sum & Difference Array**
+- **Sliding Window Techniques**
 
-  <h2>2. Core Patterns & Algorithms</h2>
-  <ul>
-    <li><strong>Searching:</strong> Linear Search, Binary Search (for sorted arrays)</li>
-    <li><strong>Reversal & Rotation:</strong> Reverse an array (in-place / extra space), Rotate array by <code>k</code> positions</li>
-    <li><strong>Prefix Sum & Difference Array</strong></li>
-    <li><strong>Sliding Window Techniques</strong></li>
-  </ul>
+### 3. Sorting Techniques
+- Merge Sort, Quick Sort, Heap Sort (time/space complexity & stability)
+- Counting Sort, Radix Sort
+- Sort 0s, 1s, and 2s (Dutch National Flag problem)
+- Custom sorting problems
 
-  <h2>3. Sorting Techniques</h2>
-  <ul>
-    <li>Merge Sort, Quick Sort, Heap Sort (time/space complexity & stability)</li>
-    <li>Counting Sort, Radix Sort</li>
-    <li>Sort 0s, 1s, and 2s (Dutch National Flag problem)</li>
-    <li>Custom sorting problems</li>
-  </ul>
+### 4. Classic Problem Patterns
+- Two pointers
+- Frequency maps / Hashing on arrays
+- Prefix and Suffix arrays
+- Kadane’s Algorithm (maximum subarray sum)
+- In-place updates (without extra space)
 
-  <h2>4. Classic Problem Patterns</h2>
-  <ul>
-    <li>Two pointers</li>
-    <li>Frequency maps / Hashing on arrays</li>
-    <li>Prefix and Suffix arrays</li>
-    <li>Kadane’s Algorithm (maximum subarray sum)</li>
-    <li>In-place updates (without extra space)</li>
-  </ul>
+### 5. Key Interview Problem Types
+- Second Largest / Third Largest Element
+- Reverse Array in Groups
+- Move All Zeroes To End
+- Wave Array / Alternate Positive Negative
+- Remove Duplicates from Sorted Array
+- Stock Buy and Sell (single/multiple transactions)
+- Majority Element / Majority Element II
+- Product of Array Except Self
+- Maximum Subarray / Product Subarray
+- Container with Most Water
+- Trapping Rain Water
+- Merge / Insert Intervals
+- Missing and Repeating Elements / Ranges
+- Sum of All Subarrays / Subarrays with Product < K
+- Minimize / Maximize array transforms (Swaps, Flips, Grouping)
 
-  <h2>5. Key Interview Problem Types</h2>
-  <ul>
-    <li>Second Largest / Third Largest Element</li>
-    <li>Reverse Array in Groups</li>
-    <li>Move All Zeroes To End</li>
-    <li>Wave Array / Alternate Positive Negative</li>
-    <li>Remove Duplicates from Sorted Array</li>
-    <li>Stock Buy and Sell (single/multiple transactions)</li>
-    <li>Majority Element / Majority Element II</li>
-    <li>Product of Array Except Self</li>
-    <li>Maximum Subarray / Product Subarray</li>
-    <li>Container with Most Water</li>
-    <li>Trapping Rain Water</li>
-    <li>Merge / Insert Intervals</li>
-    <li>Missing and Repeating Elements / Ranges</li>
-    <li>Sum of All Subarrays / Subarrays with Product &lt; K</li>
-    <li>Minimize / Maximize array transforms (Swaps, Flips, Grouping)</li>
-  </ul>
+### 6. Advanced Patterns
+- Greedy algorithms: Picking elements with constraints
+- Bit manipulation: XOR / AND / OR / bitmask on arrays
+- Binary search on answers: Range-based array queries
+- Interval problems: Merge intervals, schedule overlaps
 
-  <h2>6. Advanced Patterns</h2>
-  <ul>
-    <li>Greedy algorithms: Picking elements with constraints</li>
-    <li>Bit manipulation: XOR / AND / OR / bitmask on arrays</li>
-    <li>Binary search on answers: Range-based array queries</li>
-    <li>Interval problems: Merge intervals, schedule overlaps</li>
-  </ul>
+### 7. Matrix (2D Array) Topics
+- Traverse matrix in spiral order
+- Transpose, rotate, or search in matrix
 
-  <h2>7. Matrix (2D Array) Topics</h2>
-  <ul>
-    <li>Traverse matrix in spiral order</li>
-    <li>Transpose, rotate, or search in matrix</li>
-  </ul>
+### How To Practice?
+- **Start with Easy:** Reverse, find largest/smallest, search, rotate.
+- **Progress to Medium:** Kadane’s, stock buy/sell, remove duplicates, two-pointer tricks.
+- **Finish with Hard:** Trapping rain water, sliding window maximization, interval merges.
 
-  <h2>How To Practice?</h2>
-  <ul>
-    <li><strong>Start with Easy:</strong> Reverse, find largest/smallest, search, rotate.</li>
-    <li><strong>Progress to Medium:</strong> Kadane’s, stock buy/sell, remove duplicates, two-pointer tricks.</li>
-    <li><strong>Finish with Hard:</strong> Trapping rain water, sliding window maximization, interval merges.</li>
-  </ul>
-
-</body>
-</html>
+</details>
